@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const options = document.querySelector('select');
 
     options.addEventListener('change', updateColor);
+
+    const resetButton = document.querySelector('.reset-btn');
+    resetButton.addEventListener('click', resetGrid);
 });
 
 function promptSize() {
@@ -123,4 +126,10 @@ function updateColor() {
     })
 }
 
-    
+function resetGrid() {
+    const gridElements = document.querySelectorAll('.grid-element');
+
+    gridElements.forEach((element) => {
+        element.style.backgroundColor = 'white';
+    })
+}

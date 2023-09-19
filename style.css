@@ -11,12 +11,16 @@ h1 {
     text-align: center;
     color: white;
     text-shadow: 2px 5px 24px #E4E5E6;
-    padding: 20px 0px;
+    padding: 50px 0px;
 }
 
 p {
     color: white;
     padding-bottom: 12px;
+}
+
+.reset-label {
+    color: #00416A;
 }
 
 .big-container {
@@ -26,7 +30,7 @@ p {
     padding: 24px 0;
 }
 
-.change-btn {
+.change-btn, .reset-btn {
     font-family: 'Times New Roman', Times, serif;
     width: 20em;
     text-align: start;
