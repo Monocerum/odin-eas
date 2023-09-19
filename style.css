@@ -40,6 +40,14 @@ p {
     border-radius: 5px;
 }
 
+.change-btn:hover {
+    box-shadow: 0 5px 15px #afe0f5;
+}
+
+.reset-btn:hover {
+    box-shadow: 0 5px 15px #00416A;
+}
+
 .select-color {
     display: flex;
     flex-direction: column;
